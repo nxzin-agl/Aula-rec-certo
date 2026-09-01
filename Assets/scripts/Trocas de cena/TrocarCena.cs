@@ -9,14 +9,9 @@ public class TrocarCena : MonoBehaviour
         SceneManager.LoadScene("Jogo");
     }
 
-    public void Configuracao()
+    public void SairJogo()
     {
-        SceneManager.LoadScene("Config");
-    }
-
-    public void ConfigSom()
-    {
-        SceneManager.LoadScene("Sons");
+        Application.Quit();
     }
 
     public void VoltarMenu()
